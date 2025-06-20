@@ -1,0 +1,75 @@
+body.dark-mode {
+  background: linear-gradient(135deg, #0f0f0f, #1e1e1e);
+  color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background: radial-gradient(circle at top, #03a9f4, #0d47a1);
+  padding: 2rem 1rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+p {
+  font-size: 1rem;
+  margin: 0.5rem 0 0;
+}
+
+main {
+  padding: 2rem;
+  display: grid;
+  gap: 2rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+section {
+  background: #222;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px #03a9f4;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #00e676;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.button:hover {
+  background: #69f0ae;
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+
+footer {
+  text-align: center;
+  background: #111;
+  color: #aaa;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
